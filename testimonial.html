@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <link rel="stylesheet" href="./css/style-copy.css">
+    <link rel="stylesheet" href="./css/testimonial.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/png/logo.png" width="40"/>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-control="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+        onclick="openHamburger()"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "aria-current="page" href="add-project.html">Add Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"aria-current="page" href="testimonial.html">Testimonial</a>
+          </li>
+        </ul>
+        <a href="contact copy.html" class="btn bg-btn text-white px-3">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+    
+
+    <div class="bg-form">
+      <h2 class="fw-bold text-center pt-5">My Testimonial</h2>
+        <div class="container-rating">
+          <div class="rating">
+            <button class="rating-btn" onclick="allTestimonials()">All</button>
+            <button class="rating-btn" onclick="filterTestimonials(1)">
+              1 <i class="fa-solid fa-star fa-2xs" style="color: #ffea00;  "></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonials(2)">
+              2 <i class="fa-solid fa-star fa-2xs" style="color: #ffea00;"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonials(3)">
+              3 <i class="fa-solid fa-star fa-2xs" style="color: #ffea00;"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonials(4)">
+              4 <i class="fa-solid fa-star fa-2xs" style="color: #ffea00;"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonials(5)">
+              5 <i class="fa-solid fa-star fa-2xs" style="color: #ffea00;"></i>
+            </button>
+          </div>
+        </div>
+        <section class="testimonials" id="testimonials">
+          <!-- <div class="testimonial">
+            <img
+              src="assets/images/png/profile1.png"
+              alt=""
+              class="profile-testimonial"
+            />
+            <p class="quote">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+              lectus eu libero venenatis gravida eget vel odio.
+            </p>
+            <p class="author">- Luffy</p>
+          </div>
+  
+          <div class="testimonial">
+            <img
+              src="assets/images/png/profile2.png"
+              alt=""
+              class="profile-testimonial"
+            />
+            <p class="quote">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+              lectus eu libero venenatis gravida eget vel odio.
+            </p>
+            <p class="author">- Sanji</p>
+          </div>
+  
+          <div class="testimonial">
+            <img
+              src="assets/images/png/profile3.png"
+              alt=""
+              class="profile-testimonial"
+            />
+            <p class="quote">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+              lectus eu libero venenatis gravida eget vel odio.
+            </p>
+            <p class="author">- Zoro</p>
+          </div> -->
+        </section>
+      </div>
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+</body>
+</html>
