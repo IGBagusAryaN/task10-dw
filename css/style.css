@@ -116,8 +116,22 @@
     text-align: justify;
   }
 
-  .name-project:hover{
+  .name-project:hover {
     color: orangered;
+  }
+
+  .btn-rating {
+    background-color: #111727 !important;
+  }
+
+  .btn-rating:hover {
+    background-color: orangered !important;
+  }
+
+  .profile-testimonial {
+    height: 200px !important;
+    object-fit: cover;
+    filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.8));
   }
 
 

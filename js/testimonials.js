@@ -19,15 +19,15 @@ const promise = new Promise((resolve, reject) => {
   
     let testimonialHTML = "";
     response.forEach(function (item) {
-      testimonialHTML += `<div class="testimonial">
-                                  <img
-                                      src="${item.image}"
-                                      class="profile-testimonial"
-                                  />
-                                  <p class="quote">${item.quote}</p>
-                                  <p class="author">- ${item.author}</p>
-                                  <p class="author">${item.rating} <i class="fa-solid fa-star fa-2xs"></i></p>
-                              </div>
+      testimonialHTML += `<div class="card col-lg-3 col-md-5 col-sm-10 p-3 m-2 rounded-3">
+                              <img
+                                src="${item.image}"
+                                class="img-fluid profile-testimonial"
+                              />
+                              <p class="mt-2">${item.quote}</p>
+                              <p class="text-end mb-1 fw-bold">${item.author}</p>
+                              <p class="text-end fs-7">${item.rating} <i class="fa-solid fa-star fa-2xs"></i></p>
+                          </div>
                           `;
     });
   
@@ -50,15 +50,15 @@ const promise = new Promise((resolve, reject) => {
       testimonialHTML = "<h1>Data not found!</h1>";
     } else {
       testimonialFiltered.forEach((item) => {
-        testimonialHTML += `<div class="testimonial">
-                                  <img
-                                      src="${item.image}"
-                                      class="profile-testimonial"
-                                  />
-                                  <p class="quote">${item.quote}</p>
-                                  <p class="author">- ${item.author}</p>
-                                  <p class="author">${item.rating} <i class="fa-solid fa-star fa-2xs"></i></p>
-                              </div>
+        testimonialHTML += `<div class="card col-lg-3 col-md-5 col-sm-10 p-3 m-2 rounded-3">
+                                <img
+                                  src="${item.image}"
+                                  class="img-fluid profile-testimonial"
+                                />
+                                <p class="mt-2">${item.quote}</p>
+                                <p class="text-end mb-1 fw-bold">${item.author}</p>
+                                <p class="text-end fs-7">${item.rating} <i class="fa-solid fa-star fa-2xs"></i></p>
+                            </div>
                           `;
       });
     }
