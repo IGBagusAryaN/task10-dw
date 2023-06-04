@@ -19,7 +19,7 @@ const promise = new Promise((resolve, reject) => {
   
     let testimonialHTML = "";
     response.forEach(function (item) {
-      testimonialHTML += `<div class="card col-lg-3 col-md-5 col-sm-10 p-3 m-2 rounded-3">
+      testimonialHTML += `<div class="card col-lg-3 col-md-5 col-sm-5 p-3 m-2 rounded-3">
                               <img
                                 src="${item.image}"
                                 class="img-fluid profile-testimonial"
@@ -50,7 +50,7 @@ const promise = new Promise((resolve, reject) => {
       testimonialHTML = "<h1>Data not found!</h1>";
     } else {
       testimonialFiltered.forEach((item) => {
-        testimonialHTML += `<div class="card col-lg-3 col-md-5 col-sm-10 p-3 m-2 rounded-3">
+        testimonialHTML += `<div class="card col-lg-3 col-md-5 col-sm-5 p-3 m-2 rounded-3">
                                 <img
                                   src="${item.image}"
                                   class="img-fluid profile-testimonial"
