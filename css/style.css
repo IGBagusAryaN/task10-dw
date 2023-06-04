@@ -131,7 +131,7 @@
   .profile-testimonial {
     height: 200px !important;
     object-fit: cover;
-    filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.3));
   }
 
 
@@ -141,4 +141,7 @@
       width: 100%;
     }
 
+    .profile-testimonial{
+      height: 250px !important;
+    }
     }
