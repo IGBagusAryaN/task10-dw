@@ -7,39 +7,48 @@
     <title>Project detail</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/blog-detail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body>
-    <nav>
-        <div class="navbar">
-            <div class="nav-left">
-                <img src="../assets/images/png/logo.png" alt="" class="logo" width="40">
-                <ul>
-                    <li class="item-collapse"><a href="/index.html">Home</a></li>
-                    <li class="item-collapse"><a href="/blog.html">My Project</a></li>
-                </ul>
+<body style="background-color: #E2E6EA;">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/images/png/logo.png" width="40"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-control="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>  
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0">
+              <li class="nav-item text-center">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link "aria-current="page" href="../add-project.html">Add Project</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link active"aria-current="page" href="../testimonial.html">Testimonial</a>
+              </li>
+            </ul>
+            <div class="text-center ms-4">
+              <a href="../contact.html" class="btn bg-btn text-white px-3">Contact Me</a>
             </div>
-            <div class="nav-right item-collapse">
-                <a href="/contact.html">Contact me</a>
-            </div>
-            <div class="nav-right" id="barsmenu">
-                <button style="border: none; cursor: pointer; background: none;" onclick="openHamburger()">
-                    <img src="../assets/images/svg/menu-fill.svg" alt="" width="25px" >
-                </button>
-            </div>
+          </div>
         </div>
-    </nav>
-    <div class="hamburger-nav-container" id="hamburger-nav-container">
-        <a href="/index.html" class="hamburger-active">Home</a>
-        <a href="/blog.html">My Project</a>
-        <a class="button-contact-hamburger" href="/contact.html">
-            <button>Contact</button> 
-        </a>
-    </div>
+      </nav>  
     <section>
         <div class="container-project">
-            <h2>NFT Web</h2>
+            <h2>Game Store Web</h2>
             <div class="project">
-                <img class="img-project" src="../assets/images/png/project-3.png" alt="" width="550" >
+                <img class="img-project" src="../assets/images/png/project.png" alt=""  >
                 <div>
                     <h3>Duration</h3>
                     <div class="duration">
@@ -70,7 +79,7 @@
                 </div>
             </div>
             <div class="desc-project">
-                <h4>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, provident? Fuga quae neque officia exercitationem."</h4>
+                <h4>"Jelajahi Petualangan Seru dalam Dunia Gaming dengan Toko Game Web Inovatif Kami!"</h4>
                 <div></div>
                 <div>Masuki alam semesta virtual yang memikat di mana para pemain game dari segala usia dan preferensi dapat menemukan pelarian yang sempurna. Toko web kami adalah gerbang ke koleksi game yang dirangkai dengan teliti, mulai dari petualangan penuh aksi yang mendebarkan hingga teka-teki yang membingungkan, simulasi olahraga yang menggetarkan hati, dan epik bermain peran yang mendalam. Dengan katalog yang luas yang mencakup permata indie dan judul blockbuster, toko web kami menawarkan beragam keajaiban gaming yang akan membuat Anda ketagihan berjam-jam.</div>
                 <div>Namun, misi kami tidak hanya sebatas hiburan semata. Kami memahami bahwa setiap pemain game memiliki selera dan keinginan yang unik, itulah sebabnya toko web kami dirancang untuk memenuhi kebutuhan individu Anda. Dengan filter pencarian yang canggih dan rekomendasi personal, menemukan game yang sesuai dengan preferensi Anda menjadi mudah. Temukan rilisan terbaru, jelajahi genre populer, atau temukan permata tersembunyi yang layak mendapat perhatian—semua hanya dalam beberapa klik.</div>
@@ -79,6 +88,7 @@
             </div>
         </div>
     </section>
-    <script src="../js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
